@@ -1,0 +1,5 @@
+R1TV Player is an Android IPTV player for user-provided M3U and Xtream Codes playlists, with Live TV, Movies, Series, TV remote navigation, backups, and multilingual settings.
+
+مشغّل IPTV لأجهزة Android بقوائم M3U وXtream Codes الخاصة بالمستخدم، ويضم البث المباشر والأفلام والمسلسلات والتنقل بجهاز التلفاز والنسخ الاحتياطي وإعدادات متعددة اللغات.
+
+Suggested topics: android, android-tv, iptv-player, m3u, xtream-codes, media-player
