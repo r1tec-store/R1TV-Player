@@ -3,8 +3,8 @@
 **مشغّل IPTV لنظام Android مع واجهة مهيّأة للتلفاز والهاتف.**  
 **An Android IPTV player with an interface designed for TVs and phones.**
 
-> Latest version: **v1.8.0** — download the APK from the [Releases](https://github.com/r1tec-store/R1TV-Player/releases/latest) page.  
-> آخر إصدار: **v1.8.0** — نزّل ملف APK من صفحة [Releases](https://github.com/r1tec-store/R1TV-Player/releases/latest).
+> Latest version: **v1.8.1** — download the APK from the [Releases](https://github.com/r1tec-store/R1TV-Player/releases/latest) page.  
+> آخر إصدار: **v1.8.1** — نزّل ملف APK من صفحة [Releases](https://github.com/r1tec-store/R1TV-Player/releases/latest).
 
 ## Screenshots / لقطات الشاشة
 
@@ -74,12 +74,13 @@ The app is a player. This repository does not provide IPTV subscriptions, channe
 
 التطبيق مشغّل فقط. لا يوفر هذا المستودع اشتراكات IPTV أو قنوات أو أفلاما أو مسلسلات أو روابط قوائم أو بيانات دخول. أضف فقط القوائم والخدمات التي تملك حق استخدامها.
 
-## What's new in v1.8.0 / الجديد في الإصدار 1.8.0
+## What's new in v1.8.1 / الجديد في الإصدار 1.8.1
 
 - **Today's Matches** tile on the home screen (matches, live scores, TV channels found in your playlist, one-click play). — مربع **مباريات اليوم** في الشاشة الرئيسية (المباريات والنتائج المباشرة والقنوات الموجودة في قائمتك والتشغيل بضغطة).
 - **Broadcast Regions** and **Match Competitions** in Settings (selected items first, A–Z by country). — **مناطق البث** و**بطولات المباريات** في الإعدادات (المختار أولا ثم ترتيب أبجدي حسب الدولة).
 - Channel search per region uses the channel and group prefixes (FR, UK, DE/GER, SP/ESP/ES, MA/AR, SA/AR, TR, IT, NL, US, CA, PT, PL, BR …). — البحث عن القنوات حسب المنطقة يعتمد على بادئة القناة والمجموعة.
 - Phones: drag to reorder groups. — الهاتف: ترتيب المجموعات بالسحب.
+- Phones: Today's Matches is full screen, edge to edge (v1.8.1). — الهاتف: مباريات اليوم بملء الشاشة بدون أشرطة جانبية (1.8.1).
 - Since v1.4: double BACK to exit, provider EPG by default, rounded live preview, no black screen after reordering, phone player fix, new phone icon. — منذ 1.4: الخروج بالضغط مرتين على BACK، دليل المزوّد افتراضيا، معاينة بزوايا دائرية، إصلاح الشاشة السوداء بعد الترتيب، إصلاح مشغل الهاتف، أيقونة جديدة.
 
 ## App details / معلومات التطبيق
@@ -87,7 +88,7 @@ The app is a player. This repository does not provide IPTV subscriptions, channe
 | | |
 |---|---|
 | App name / اسم التطبيق | R1TV Player |
-| Version / الإصدار | 1.8.0 (versionCode 18) |
+| Version / الإصدار | 1.8.1 (versionCode 19) |
 | Android package / معرّف الحزمة | `com.r1tv.player2` |
 | Minimum Android / الحد الأدنى لأندرويد | Android 5.0, API 21 |
 | Target SDK / إصدار الاستهداف | API 34 |
@@ -95,9 +96,9 @@ The app is a player. This repository does not provide IPTV subscriptions, channe
 
 ## Download and install / التنزيل والتثبيت
 
-Download `R1TV-Player-v1.8.0.apk` from the [Releases](https://github.com/r1tec-store/R1TV-Player/releases/latest) page and install it on an Android device or Android TV. It updates an installed v1.x over the top — playlists and settings are kept. Android may ask you to allow installation from the app used to open the APK. Review the requested permissions before accepting.
+Download `R1TV-Player-v1.8.1.apk` from the [Releases](https://github.com/r1tec-store/R1TV-Player/releases/latest) page and install it on an Android device or Android TV. It updates an installed v1.x over the top — playlists and settings are kept. Android may ask you to allow installation from the app used to open the APK. Review the requested permissions before accepting.
 
-نزّل `R1TV-Player-v1.8.0.apk` من صفحة [Releases](https://github.com/r1tec-store/R1TV-Player/releases/latest) وثبّته على جهاز Android أو Android TV. يتم التحديث فوق الإصدار المثبّت مع الاحتفاظ بالقوائم والإعدادات. قد يطلب Android السماح بالتثبيت من التطبيق الذي فتح ملف APK؛ راجع الأذونات المطلوبة قبل الموافقة.
+نزّل `R1TV-Player-v1.8.1.apk` من صفحة [Releases](https://github.com/r1tec-store/R1TV-Player/releases/latest) وثبّته على جهاز Android أو Android TV. يتم التحديث فوق الإصدار المثبّت مع الاحتفاظ بالقوائم والإعدادات. قد يطلب Android السماح بالتثبيت من التطبيق الذي فتح ملف APK؛ راجع الأذونات المطلوبة قبل الموافقة.
 
 ## Backups and privacy / النسخ الاحتياطي والخصوصية
 
