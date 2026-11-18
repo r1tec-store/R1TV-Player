@@ -96,9 +96,9 @@ The app is a player. This repository does not provide IPTV subscriptions, channe
 
 ## Download and install / التنزيل والتثبيت
 
-Download `R1TV-Player-v1.8.1.apk` from the [Releases](https://github.com/r1tec-store/R1TV-Player/releases/latest) page and install it on an Android device or Android TV. It updates an installed v1.x over the top — playlists and settings are kept. Android may ask you to allow installation from the app used to open the APK. Review the requested permissions before accepting.
+Download `R1TV-Player.apk` from the [Releases](https://github.com/r1tec-store/R1TV-Player/releases/latest) page (direct link to the latest version: https://github.com/r1tec-store/R1TV-Player/releases/latest/download/R1TV-Player.apk) and install it on an Android device or Android TV. It updates an installed v1.x over the top — playlists and settings are kept. Android may ask you to allow installation from the app used to open the APK. Review the requested permissions before accepting.
 
-نزّل `R1TV-Player-v1.8.1.apk` من صفحة [Releases](https://github.com/r1tec-store/R1TV-Player/releases/latest) وثبّته على جهاز Android أو Android TV. يتم التحديث فوق الإصدار المثبّت مع الاحتفاظ بالقوائم والإعدادات. قد يطلب Android السماح بالتثبيت من التطبيق الذي فتح ملف APK؛ راجع الأذونات المطلوبة قبل الموافقة.
+نزّل `R1TV-Player.apk` من صفحة [Releases](https://github.com/r1tec-store/R1TV-Player/releases/latest) (رابط مباشر لآخر إصدار: https://github.com/r1tec-store/R1TV-Player/releases/latest/download/R1TV-Player.apk) وثبّته على جهاز Android أو Android TV. يتم التحديث فوق الإصدار المثبّت مع الاحتفاظ بالقوائم والإعدادات. قد يطلب Android السماح بالتثبيت من التطبيق الذي فتح ملف APK؛ راجع الأذونات المطلوبة قبل الموافقة.
 
 ## Backups and privacy / النسخ الاحتياطي والخصوصية
 
