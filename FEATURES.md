@@ -1,4 +1,4 @@
-# R1TV Player — all features / جميع المميزات (v1.8.0)
+# R1TV Player — all features / جميع المميزات
 
 ## English
 
