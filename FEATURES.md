@@ -10,11 +10,13 @@
 
 ### Today's Matches (home tile)
 - Today's football matches from the 365Scores web API, grouped by competition (most popular first); inside a competition: live, upcoming, finished. Live minute, score, kick-off time, round, team logos; auto refresh (1 min with live games, else 5 min).
-- **Broadcast Regions** (Settings or the *Regions* button): any of the API's countries; default Brazil, Canada, Cyprus, Czechia, Denmark, England, Finland, France, Germany, Greece, Hungary, Italy, Kuwait, Morocco, Netherlands, Poland, Portugal, Saudi Arabia, Spain, Turkiye, USA. Select all / deselect all / restore defaults; selected first, A–Z.
+- **Broadcast Regions** (Settings): any of the API's countries; default Brazil, Canada, Cyprus, Czechia, Denmark, England, Finland, France, Germany, Greece, Hungary, Italy, Kuwait, Morocco, Netherlands, Poland, Portugal, Saudi Arabia, Spain, Turkiye, USA. Select all / deselect all / restore defaults; selected first, A–Z.
 - One API query per region (the API supports one country per request), channels merged per match: the same channel from several regions is shown once with all its regions; different channels with similar names stay separate. A region that fails is reported with *Retry*; the others are still shown.
-- **Match Competitions** (Settings or the *Competitions* button): all national-team competitions (incl. friendlies) and a chosen list of club competitions; option to show every competition. Only selected competitions are loaded.
+- **Match Competitions** (Settings): all national-team competitions (incl. friendlies) and a chosen list of club competitions; option to show every competition. Only selected competitions are loaded.
 - **Matching with your playlist**: by channel name (case, spaces, punctuation, HD/FHD/4K/HEVC ignored, known aliases such as M+ = Movistar, TNT = BT Sport, close spellings) and by country: the channel prefix or its group (FR, UK, DE/GER, SP/ESP/ES, MA/AR, SA/AR, TR/TUR, IT/ITA, NL, US/USA, CA/CAN, PT/POR, PL/POL, BR/BRA …). Channel numbers must match (beIN 1 ≠ beIN 10). Each match has a confidence score: only strong matches are playable, weaker ones are shown as "possible", the rest under **Not Available in Your Playlist**.
 - Filter: *With TV channels* (default) / *In my playlist* / *All matches*. OK on a channel plays it fullscreen in the Live player.
+- **Order of the regions** (Settings → Broadcast Regions → "Change the order of my regions"): remote OK picks a region, ▲ ▼ move it, OK drops it; touch: tap a region, then its new place. The channel groups of a match follow this order.
+- Matches: live first, then upcoming, then finished, each grouped by competition. 15 minutes after the end of a match only its result is shown. BACK from a channel opened here returns straight to the match.
 
 ### Live TV
 - Three columns: groups, channels, live preview with channel name and programme info.
@@ -39,6 +41,11 @@
 ### Movies & Series
 - Browse by group, sort (e.g. by date added), search, resume watching, favorites, hide groups.
 - Movie and series info pages, seasons and episodes, subtitle settings.
+
+### Language, updates, tips
+- The whole app follows the language chosen in Settings → Change Language (English, Arabic, French, Spanish, Italian).
+- Settings → **Check for updates**: compares with the latest GitHub release, shows the release notes, downloads `R1TV-Player.apk` from the permanent link and opens the Android installer (settings and playlists are kept). A quiet check also runs every 12 hours.
+- First-use tips (English + Arabic), shown once: how to reorder groups (Live) and where regions / competitions are set (Today's Matches).
 
 ### Home screen & exit
 - Tiles: Live, Movies, Series, Settings, Playlist, Reload, EXIT; subscription expiry, clock and date.
@@ -70,11 +77,13 @@
 
 ### مباريات اليوم (مربع في الرئيسية)
 - مباريات كرة القدم لليوم من واجهة 365Scores، مجمّعة حسب البطولة (الأشهر أولا)، وداخل كل بطولة: المباشرة ثم القادمة ثم المنتهية. الدقيقة والنتيجة وموعد الانطلاق والجولة وشعارات الفرق، مع تحديث تلقائي (كل دقيقة أثناء المباريات المباشرة وإلا كل 5 دقائق).
-- **مناطق البث** (من الإعدادات أو زر *Regions*): أي دولة تدعمها الواجهة؛ الافتراضي البرازيل، كندا، قبرص، التشيك، الدنمارك، إنجلترا، فنلندا، فرنسا، ألمانيا، اليونان، المجر، إيطاليا، الكويت، المغرب، هولندا، بولندا، البرتغال، السعودية، إسبانيا، تركيا، أمريكا. تحديد الكل / إلغاء الكل / استعادة الافتراضي؛ المختار أولا ثم ترتيب أبجدي.
+- **مناطق البث** (من الإعدادات): أي دولة تدعمها الواجهة؛ الافتراضي البرازيل، كندا، قبرص، التشيك، الدنمارك، إنجلترا، فنلندا، فرنسا، ألمانيا، اليونان، المجر، إيطاليا، الكويت، المغرب، هولندا، بولندا، البرتغال، السعودية، إسبانيا، تركيا، أمريكا. تحديد الكل / إلغاء الكل / استعادة الافتراضي؛ المختار أولا ثم ترتيب أبجدي.
 - طلب واحد لكل منطقة (الواجهة تقبل دولة واحدة في كل طلب)، ثم دمج القنوات لكل مباراة: القناة نفسها من عدة مناطق تظهر مرة واحدة مع مناطقها، والقنوات المختلفة ذات الأسماء المتشابهة تبقى منفصلة. المنطقة التي يفشل تحميلها تظهر مع زر *Retry* وتبقى نتائج باقي المناطق.
-- **بطولات المباريات** (من الإعدادات أو زر *Competitions*): كل بطولات المنتخبات (مع الودية) وقائمة مختارة من بطولات الأندية، مع خيار عرض كل البطولات. لا تُحمّل إلا البطولات المختارة.
+- **بطولات المباريات** (من الإعدادات): كل بطولات المنتخبات (مع الودية) وقائمة مختارة من بطولات الأندية، مع خيار عرض كل البطولات. لا تُحمّل إلا البطولات المختارة.
 - **المطابقة مع قائمتك**: حسب اسم القناة (حالة الأحرف والمسافات والرموز وHD/FHD/4K/HEVC مُتجاهلة، أسماء بديلة معروفة مثل M+ = Movistar و TNT = BT Sport، والأخطاء الإملائية البسيطة) وحسب الدولة: بادئة القناة أو مجموعتها (FR، UK، DE/GER، SP/ESP/ES، MA/AR، SA/AR، TR/TUR، IT/ITA، NL، US/USA، CA/CAN، PT/POR، PL/POL، BR/BRA …). أرقام القنوات يجب أن تتطابق (beIN 1 ≠ beIN 10). لكل مطابقة درجة ثقة: القوية فقط قابلة للتشغيل، والأضعف تظهر كـ"محتملة"، والباقي تحت **Not Available in Your Playlist**.
 - التصفية: *With TV channels* (افتراضي) / *In my playlist* / *All matches*. زر OK على القناة يشغّلها بالشاشة الكاملة في مشغل البث المباشر.
+- **ترتيب المناطق** (الإعدادات ← مناطق البث ← «تغيير ترتيب مناطقي»): بالريموت OK لاختيار المنطقة ثم ▲ ▼ لتحريكها ثم OK لتثبيتها؛ باللمس اضغط على المنطقة ثم على مكانها الجديد. مجموعات قنوات المباراة تتبع هذا الترتيب.
+- المباريات: المباشرة أولا ثم القادمة ثم المنتهية، مجمّعة حسب البطولة. بعد 15 دقيقة من نهاية المباراة تبقى النتيجة فقط. زر الرجوع من قناة فُتحت من هنا يعود مباشرة إلى المباراة.
 
 ### البث المباشر
 - ثلاثة أعمدة: المجموعات، القنوات، ومعاينة مباشرة مع اسم القناة ومعلومات البرنامج.
@@ -99,6 +108,11 @@
 ### الأفلام والمسلسلات
 - التصفح حسب المجموعة، الترتيب (مثلا حسب تاريخ الإضافة)، البحث، متابعة المشاهدة، المفضلة، إخفاء المجموعات.
 - صفحات معلومات الأفلام والمسلسلات، المواسم والحلقات، إعدادات الترجمة.
+
+### اللغة والتحديث والنصائح
+- التطبيق كله يتبع اللغة المختارة في الإعدادات ← تغيير اللغة (العربية، الإنجليزية، الفرنسية، الإسبانية، الإيطالية).
+- الإعدادات ← **التحقق من التحديثات**: مقارنة بآخر إصدار على GitHub، عرض الجديد، تنزيل `R1TV-Player.apk` من الرابط الدائم وفتح أداة التثبيت (مع الاحتفاظ بالإعدادات والقوائم). ويتم فحص تلقائي كل 12 ساعة.
+- نصائح أول استعمال (بالعربية والإنجليزية) تظهر مرة واحدة: كيفية ترتيب المجموعات (البث المباشر) ومكان المناطق والبطولات (مباريات اليوم).
 
 ### الشاشة الرئيسية والخروج
 - المربعات: Live و Movies و Series و Settings و Playlist و Reload و EXIT، مع مدة الاشتراك والساعة والتاريخ.
