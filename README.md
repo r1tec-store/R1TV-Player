@@ -7,6 +7,12 @@
 
 **[R1TV-Player.apk — latest version / آخر إصدار](https://github.com/r1tec-store/R1TV-Player/releases/latest/download/R1TV-Player.apk)**
 
+### 📺 Downloader code: `2795393`
+
+On Android TV / Google TV / Fire TV: open the **Downloader** app, type **2795393** and press **Go** — it downloads the latest R1TV-Player.apk, then press **Install**. (Short link: [aftv.news/2795393](https://aftv.news/2795393))
+
+على Android TV أو Google TV أو Fire TV: افتح تطبيق **Downloader**، اكتب الرمز **2795393** ثم اضغط **Go** — يتم تنزيل آخر إصدار من R1TV-Player.apk، ثم اضغط **Install**. (رابط مختصر: [aftv.news/2795393](https://aftv.news/2795393))
+
 Permanent link (always the newest version) / رابط دائم (دائما آخر إصدار):  
 `https://github.com/r1tec-store/R1TV-Player/releases/latest/download/R1TV-Player.apk`
 
