@@ -1,7 +1,7 @@
 # R1TV Player
 
-**مشغّل IPTV لنظام Android مع واجهة مهيّأة للتلفاز والهاتف.**  
-**An Android IPTV player with an interface designed for TVs and phones.**
+**مشغّل IPTV لأجهزة Android (التلفاز والهاتف) ولويندوز.**  
+**An IPTV player for Android (TV and phone) and Windows.**
 
 ## ⬇ Download / التنزيل
 
@@ -15,6 +15,14 @@ On Android TV / Google TV / Fire TV: open the **Downloader** app, type **2795393
 
 Permanent link (always the newest version) / رابط دائم (دائما آخر إصدار):  
 `https://github.com/r1tec-store/R1TV-Player/releases/latest/download/R1TV-Player.apk`
+
+### 🖥️ Windows 10 / 11
+
+**[R1TV-Player-Windows-Setup.exe — latest version / آخر إصدار](https://github.com/r1tec-store/R1TV-Player/releases/latest/download/R1TV-Player-Windows-Setup.exe)**
+
+The same app on your PC (Live TV, Movies, Series, Today's Matches, EPG). Double-click the installer: it installs for your Windows user (no administrator rights) with Start menu and Desktop shortcuts; updates are offered automatically. 64-bit Windows 10 or 11.
+
+نفس التطبيق على الحاسوب (البث المباشر، الأفلام، المسلسلات، مباريات اليوم، دليل البرامج). انقر مرتين على ملف التثبيت: يُثبَّت لمستخدم ويندوز بدون صلاحيات المسؤول مع اختصار في قائمة ابدأ وسطح المكتب، والتحديثات تُعرض تلقائيا. ويندوز 10 أو 11 بنظام 64 بت.
 
 Version number, changes and SHA-256 checksum: see the [latest release](https://github.com/r1tec-store/R1TV-Player/releases/latest). — رقم الإصدار والتغييرات وبصمة SHA-256 في صفحة [آخر إصدار](https://github.com/r1tec-store/R1TV-Player/releases/latest).
 
