@@ -26,11 +26,7 @@ Version number, changes and SHA-256 checksum: see the [latest release](https://g
 
 | Today's Matches / مباريات اليوم | Match channels / قنوات المباراة |
 |---|---|
-| ![Today's matches grouped by competition](screenshots/todays-matches.png) | ![Channels of a match from your playlist](screenshots/match-channels.png) |
-
-| Match competitions / البطولات | |
-|---|---|
-| ![Choose competitions](screenshots/match-competitions.png) | |
+| ![Today's matches from Fixtures OnSAT](screenshots/todays-matches.png) | ![Channels of a match from your playlist](screenshots/match-channels.png) |
 
 | Group order / ترتيب المجموعات | EPG sources / مصادر دليل البرامج |
 |---|---|
@@ -52,12 +48,11 @@ The full list is in [FEATURES.md](FEATURES.md). / القائمة الكاملة 
 
 - **Playlists** — add an **M3U URL** or **Xtream Codes** login, name it, manage several playlists, see connection status, reload.
 - **Auto-update** — the playlist refreshes every 6, 12 (default), 24 or 48 hours; the EPG is refreshed with it.
-- **Today's Matches** — today's football matches grouped by competition (most popular first): live minute and score, kick-off times, team logos. For each match the app asks the 365Scores football API which TV channels broadcast it in every **Broadcast Region** you enable (one query per region, results merged and de-duplicated), then finds those channels in **your own playlist** (country prefix or group: FR, UK, DE, AR …, quality HD/FHD/4K ignored, confidence score). OK on a channel plays it fullscreen. Channels that are not in your playlist are listed separately and are never shown as playable.
-- **Match Competitions** — default: all national-team competitions (World Cup, qualifiers, friendlies…) plus the major club competitions (Premier League, LaLiga, Bundesliga, Serie A, Ligue 1, cups and super cups, Champions/Europa/Conference League, Libertadores, CAF/AFC Champions League, Saudi League, Botola Pro…); add or remove any competition in Settings.
-- **Broadcast Regions order** — put your regions in the order you prefer (Settings → Broadcast Regions → "Change the order of my regions": OK on a region, ▲ ▼ to move it, OK to drop it; on phones tap a region, then its new place). The channels of a match are listed in that order. Matches are shown live first, then upcoming, then finished; channels of a finished match disappear 15 minutes after the end (the result stays).
+- **Today's Matches** — today's football matches from **Fixtures OnSAT** (our own match service), in the same order as the website: live minute and score, kick-off times, rounds, team and competition logos, the main broadcaster and the commentator. Every TV channel of a match is searched in **your own playlist** by **name and country** (the channel prefix or its group: `|AR|`, `ARAB| EGYPT`, `AF| AZAM`, `ASIA| IRAN`, `EU| ROMANIA` …; HD/FHD/4K ignored). Only sure channels are shown; OK on a channel plays it fullscreen. Channels that are not in your playlist are listed separately and are never shown as playable.
+- **Match channels** — grouped by country; STARZPLAY matches open STARZPLAY SPORTS 1 and 2; Egyptian League matches find ON Sport (ONTIME SPORTS); beIN SPORTS English stays separate from the Arabic beIN. Matches are shown live first, then upcoming, then finished; channels of a finished match disappear 15 minutes after the end (the result stays).
 - **Full translation** — the whole app follows the language chosen in Settings (English, Arabic, French, Spanish, Italian), including Today's Matches, all dialogs and messages.
-- **Updates from GitHub** — Settings → **Check for updates** compares the app with the latest release, shows what is new, downloads the APK from the permanent link and opens the Android installer. The app also checks quietly every 12 hours.
-- **First-use tips** — a short tip (English + Arabic) appears once in Live (how to reorder groups) and once in Today's Matches (regions and competitions are in Settings).
+- **Updates from GitHub** — Settings → **Check for updates** compares the app with the latest release, shows what is new, downloads the APK from the permanent link and opens the Android installer. The app also checks quietly every 3 hours; a required update cannot be postponed.
+- **First-use tips** — a short tip (English + Arabic) appears once in Live (how to reorder groups) and once in Today's Matches (how to open and play a match's channels).
 - **Live TV** — groups, channels and a live preview with rounded corners and a rounded focus frame; OK = fullscreen.
 - **Fullscreen channel list** — DOWN shows the group's channels over the video; LEFT / RIGHT switch groups; OK plays.
 - **Group order** — hold OK on a group in Live, Movies or Series, move it with ▲ ▼ (the list follows it past the screen), OK saves instantly, BACK cancels. On phones: press and hold, then drag the group. Hold OK on a fixed row to reset to the provider's order.
@@ -68,7 +63,7 @@ The full list is in [FEATURES.md](FEATURES.md). / القائمة الكاملة 
 - **Phones too** — touch layouts, fullscreen player that keeps playing after the notification shade, adaptive launcher icon.
 - **Languages** — Arabic, French, English, Spanish and Italian. VPN controls in Settings.
 
-Match data and broadcaster names come from the public 365Scores web service (unofficial; it can change without notice). Channels named by the service are never shown as playable: only channels of your own playlist can be played.
+Match data and broadcaster names come from Fixtures OnSAT. Channels named by the service are never shown as playable: only channels of your own playlist can be played.
 
 The app is a player. This repository does not provide IPTV subscriptions, channels, movies, series, playlist URLs, or login credentials. Add only playlists and services you are authorized to use.
 
@@ -76,12 +71,11 @@ The app is a player. This repository does not provide IPTV subscriptions, channe
 
 - **القوائم** — إضافة **رابط M3U** أو **بيانات Xtream Codes** مع تسمية القائمة، وإدارة عدة قوائم ومعرفة حالة الاتصال وإعادة التحميل.
 - **التحديث التلقائي** — تحديث القائمة كل 6 أو 12 (افتراضي) أو 24 أو 48 ساعة، مع تحديث دليل البرامج معها.
-- **مباريات اليوم** — مباريات كرة القدم لليوم مجمّعة حسب البطولة (الأشهر أولا) مع الدقيقة والنتيجة المباشرة وموعد الانطلاق وشعارات الفرق. لكل مباراة يسأل التطبيق واجهة 365Scores عن القنوات الناقلة في كل **منطقة بث** مفعّلة (طلب لكل منطقة، ثم دمج النتائج وإزالة التكرار)، ثم يبحث عن هذه القنوات في **قائمتك أنت** (حسب بادئة الدولة أو المجموعة: FR و UK و DE و AR …، مع تجاهل HD/FHD/4K ودرجة ثقة للمطابقة). زر OK على القناة يشغّلها بالشاشة الكاملة. القنوات غير الموجودة في قائمتك تظهر في قسم منفصل ولا تُعرض كقنوات قابلة للتشغيل.
-- **بطولات المباريات** — الافتراضي: كل بطولات المنتخبات (كأس العالم والتصفيات والمباريات الودية…) وأهم بطولات الأندية (الدوري الإنجليزي والإسباني والألماني والإيطالي والفرنسي والكؤوس والسوبر، دوري الأبطال والدوري الأوروبي ودوري المؤتمر، ليبرتادوريس، أبطال إفريقيا وآسيا، الدوري السعودي، البطولة الاحترافية…)؛ يمكن إضافة أو حذف أي بطولة من الإعدادات.
-- **ترتيب مناطق البث** — رتّب مناطقك كما تريد (الإعدادات ← مناطق البث ← «تغيير ترتيب مناطقي»: OK على المنطقة، ثم ▲ ▼ لتحريكها، ثم OK لتثبيتها؛ على الهاتف اضغط على المنطقة ثم على مكانها الجديد). تُعرض قنوات المباراة بهذا الترتيب. المباريات تظهر: المباشرة أولا ثم القادمة ثم المنتهية، وقنوات المباراة المنتهية تختفي بعد 15 دقيقة من نهايتها وتبقى النتيجة.
+- **مباريات اليوم** — مباريات كرة القدم لليوم من **Fixtures OnSAT** (خدمة المباريات الخاصة بنا) بنفس ترتيب الموقع: الدقيقة والنتيجة المباشرة وموعد الانطلاق والجولة وشعارات الفرق والبطولات والقناة الناقلة والمعلق. كل قناة ناقلة يُبحث عنها في **قائمتك أنت** حسب **الاسم والبلد** (بادئة القناة أو مجموعتها: `|AR|` و `ARAB| EGYPT` و `AF| AZAM` و `ASIA| IRAN` و `EU| ROMANIA` …، مع تجاهل HD/FHD/4K). تظهر القنوات المؤكدة فقط، وزر OK على القناة يشغّلها بالشاشة الكاملة. القنوات غير الموجودة في قائمتك تظهر في قسم منفصل ولا تُعرض كقنوات قابلة للتشغيل.
+- **قنوات المباراة** — مجمّعة حسب البلد؛ مباريات STARZPLAY تفتح STARZPLAY SPORTS 1 و 2، ومباريات الدوري المصري تجد ON Sport (ONTIME SPORTS)، و beIN SPORTS English منفصلة عن beIN العربية. المباريات تظهر: المباشرة أولا ثم القادمة ثم المنتهية، وقنوات المباراة المنتهية تختفي بعد 15 دقيقة من نهايتها وتبقى النتيجة.
 - **ترجمة كاملة** — التطبيق كله يتبع اللغة المختارة في الإعدادات (العربية، الإنجليزية، الفرنسية، الإسبانية، الإيطالية)، بما في ذلك مباريات اليوم وكل النوافذ والرسائل.
-- **التحديث من GitHub** — الإعدادات ← **التحقق من التحديثات** يقارن التطبيق بآخر إصدار، ويعرض الجديد، وينزّل ملف APK من الرابط الدائم ويفتح أداة التثبيت. ويتحقق التطبيق تلقائيا كل 12 ساعة.
-- **نصائح أول استعمال** — نافذة قصيرة (بالعربية والإنجليزية) تظهر مرة واحدة في البث المباشر (كيفية ترتيب المجموعات) ومرة في مباريات اليوم (المناطق والبطولات في الإعدادات).
+- **التحديث من GitHub** — الإعدادات ← **التحقق من التحديثات** يقارن التطبيق بآخر إصدار، ويعرض الجديد، وينزّل ملف APK من الرابط الدائم ويفتح أداة التثبيت. ويتحقق التطبيق تلقائيا كل 3 ساعات، والتحديث الإلزامي لا يمكن تأجيله.
+- **نصائح أول استعمال** — نافذة قصيرة (بالعربية والإنجليزية) تظهر مرة واحدة في البث المباشر (كيفية ترتيب المجموعات) ومرة في مباريات اليوم (كيفية فتح قنوات المباراة وتشغيلها).
 - **البث المباشر** — المجموعات والقنوات ومعاينة مباشرة بزوايا دائرية وإطار تركيز دائري؛ زر OK للشاشة الكاملة.
 - **قائمة القنوات في الشاشة الكاملة** — زر الأسفل يعرض قنوات المجموعة فوق الفيديو، ويمين / يسار للتنقل بين المجموعات، وOK للتشغيل.
 - **ترتيب المجموعات** — اضغط مطولا على OK فوق مجموعة في المباشر أو الأفلام أو المسلسلات، وحرّكها بـ ▲ ▼ (القائمة تتبعها حتى خارج الشاشة)، وOK يحفظ فورا وBACK يلغي. على الهاتف: اضغط مطولا ثم اسحب المجموعة. الضغط المطوّل على صف ثابت يعيد ترتيب المزوّد الأصلي.
