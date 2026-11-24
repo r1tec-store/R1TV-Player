@@ -41,8 +41,8 @@
 
 ### Language, updates, tips
 - The whole app follows the language chosen in Settings → Change Language (English, Arabic, French, Spanish, Italian).
-- Settings → **Check for updates**: compares with the latest GitHub release, shows the release notes, downloads `R1TV-Player.apk` from the permanent link and opens the Android installer (settings and playlists are kept). A quiet check also runs every 3 hours; a release marked as required shows a prompt without "Later" until it is installed.
-- First-use tips (English + Arabic), shown once: how to reorder groups (Live) and how to open a match's channels (Today's Matches).
+- **Every update is required**: at every start the app compares itself with the latest GitHub release; a new version must be installed before the app can be used (downloads `R1TV-Player.apk` from the permanent link and opens the Android installer — settings and playlists are kept). Settings → **Check for updates** checks at once. Without internet the app works normally.
+- First-use tip (English + Arabic), shown once: how to reorder groups (Live). Today's Matches opens directly.
 
 ### Home screen & exit
 - Tiles: Live, Movies, Series, Settings, Playlist, Reload, EXIT; subscription expiry, clock and date.
@@ -105,8 +105,8 @@
 
 ### اللغة والتحديث والنصائح
 - التطبيق كله يتبع اللغة المختارة في الإعدادات ← تغيير اللغة (العربية، الإنجليزية، الفرنسية، الإسبانية، الإيطالية).
-- الإعدادات ← **التحقق من التحديثات**: مقارنة بآخر إصدار على GitHub، عرض الجديد، تنزيل `R1TV-Player.apk` من الرابط الدائم وفتح أداة التثبيت (مع الاحتفاظ بالإعدادات والقوائم). ويتم فحص تلقائي كل 3 ساعات، والإصدار الإلزامي يظهر بدون زر «لاحقا» حتى يُثبَّت.
-- نصائح أول استعمال (بالعربية والإنجليزية) تظهر مرة واحدة: كيفية ترتيب المجموعات (البث المباشر) وكيفية فتح قنوات المباراة (مباريات اليوم).
+- **كل تحديث إلزامي**: في كل تشغيل يقارن التطبيق نفسه بآخر إصدار على GitHub، ويجب تثبيت الإصدار الجديد قبل استعمال التطبيق (تنزيل `R1TV-Player.apk` من الرابط الدائم وفتح أداة التثبيت مع الاحتفاظ بالإعدادات والقوائم). الإعدادات ← **التحقق من التحديثات** للتحقق فورا. بدون إنترنت يعمل التطبيق عاديا.
+- نصيحة أول استعمال (بالعربية والإنجليزية) تظهر مرة واحدة: كيفية ترتيب المجموعات (البث المباشر). مباريات اليوم تفتح مباشرة.
 
 ### الشاشة الرئيسية والخروج
 - المربعات: Live و Movies و Series و Settings و Playlist و Reload و EXIT، مع مدة الاشتراك والساعة والتاريخ.

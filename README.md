@@ -20,9 +20,9 @@ Permanent link (always the newest version) / رابط دائم (دائما آخ�
 
 **[R1TV-Player-Windows-Setup.exe — latest version / آخر إصدار](https://github.com/r1tec-store/R1TV-Player/releases/latest/download/R1TV-Player-Windows-Setup.exe)**
 
-The same app on your PC (Live TV, Movies, Series, Today's Matches, EPG). Double-click the installer: it installs for your Windows user (no administrator rights) with Start menu and Desktop shortcuts; updates are offered automatically. 64-bit Windows 10 or 11.
+The same app on your PC (Live TV, Movies, Series, Today's Matches, EPG). Double-click the installer: it installs for your Windows user (no administrator rights) with Start menu and Desktop shortcuts; updates install automatically and are required. 64-bit Windows 10 or 11.
 
-نفس التطبيق على الحاسوب (البث المباشر، الأفلام، المسلسلات، مباريات اليوم، دليل البرامج). انقر مرتين على ملف التثبيت: يُثبَّت لمستخدم ويندوز بدون صلاحيات المسؤول مع اختصار في قائمة ابدأ وسطح المكتب، والتحديثات تُعرض تلقائيا. ويندوز 10 أو 11 بنظام 64 بت.
+نفس التطبيق على الحاسوب (البث المباشر، الأفلام، المسلسلات، مباريات اليوم، دليل البرامج). انقر مرتين على ملف التثبيت: يُثبَّت لمستخدم ويندوز بدون صلاحيات المسؤول مع اختصار في قائمة ابدأ وسطح المكتب، والتحديثات تُثبَّت تلقائيا وهي إلزامية. ويندوز 10 أو 11 بنظام 64 بت.
 
 Version number, changes and SHA-256 checksum: see the [latest release](https://github.com/r1tec-store/R1TV-Player/releases/latest). — رقم الإصدار والتغييرات وبصمة SHA-256 في صفحة [آخر إصدار](https://github.com/r1tec-store/R1TV-Player/releases/latest).
 
@@ -59,8 +59,8 @@ The full list is in [FEATURES.md](FEATURES.md). / القائمة الكاملة 
 - **Today's Matches** — today's football matches from our own match service: live minute and score, kick-off times, rounds, team and competition logos, the main broadcaster and the commentator. Every TV channel of a match is searched in **your own playlist** by **name and country** (the channel prefix or its group: `|AR|`, `ARAB| EGYPT`, `AF| AZAM`, `ASIA| IRAN`, `EU| ROMANIA` …; HD/FHD/4K ignored). Only sure channels are shown; OK on a channel plays it fullscreen. Channels that are not in your playlist are listed separately and are never shown as playable.
 - **Match channels** — grouped by country; STARZPLAY matches open STARZPLAY SPORTS 1 and 2; Egyptian League matches find ON Sport (ONTIME SPORTS); beIN SPORTS English stays separate from the Arabic beIN. Matches are shown live first, then upcoming, then finished; channels of a finished match disappear 15 minutes after the end (the result stays).
 - **Full translation** — the whole app follows the language chosen in Settings (English, Arabic, French, Spanish, Italian), including Today's Matches, all dialogs and messages.
-- **Updates from GitHub** — Settings → **Check for updates** compares the app with the latest release, shows what is new, downloads the APK from the permanent link and opens the Android installer. The app also checks quietly every 3 hours; a required update cannot be postponed.
-- **First-use tips** — a short tip (English + Arabic) appears once in Live (how to reorder groups) and once in Today's Matches (how to open and play a match's channels).
+- **Updates from GitHub** — at every start the app compares itself with the latest release. **Every update is required**: a new version must be installed before the app can be used (it downloads the APK from the permanent link and opens the Android installer — playlists and settings are kept). Settings → **Check for updates** checks at once.
+- **First-use tip** — a short tip (English + Arabic) appears once in Live (how to reorder groups).
 - **Live TV** — groups, channels and a live preview with rounded corners and a rounded focus frame; OK = fullscreen.
 - **Fullscreen channel list** — DOWN shows the group's channels over the video; LEFT / RIGHT switch groups; OK plays.
 - **Group order** — hold OK on a group in Live, Movies or Series, move it with ▲ ▼ (the list follows it past the screen), OK saves instantly, BACK cancels. On phones: press and hold, then drag the group. Hold OK on a fixed row to reset to the provider's order.
@@ -82,8 +82,8 @@ The app is a player. This repository does not provide IPTV subscriptions, channe
 - **مباريات اليوم** — مباريات كرة القدم لليوم من خدمة المباريات الخاصة بنا: الدقيقة والنتيجة المباشرة وموعد الانطلاق والجولة وشعارات الفرق والبطولات والقناة الناقلة والمعلق. كل قناة ناقلة يُبحث عنها في **قائمتك أنت** حسب **الاسم والبلد** (بادئة القناة أو مجموعتها: `|AR|` و `ARAB| EGYPT` و `AF| AZAM` و `ASIA| IRAN` و `EU| ROMANIA` …، مع تجاهل HD/FHD/4K). تظهر القنوات المؤكدة فقط، وزر OK على القناة يشغّلها بالشاشة الكاملة. القنوات غير الموجودة في قائمتك تظهر في قسم منفصل ولا تُعرض كقنوات قابلة للتشغيل.
 - **قنوات المباراة** — مجمّعة حسب البلد؛ مباريات STARZPLAY تفتح STARZPLAY SPORTS 1 و 2، ومباريات الدوري المصري تجد ON Sport (ONTIME SPORTS)، و beIN SPORTS English منفصلة عن beIN العربية. المباريات تظهر: المباشرة أولا ثم القادمة ثم المنتهية، وقنوات المباراة المنتهية تختفي بعد 15 دقيقة من نهايتها وتبقى النتيجة.
 - **ترجمة كاملة** — التطبيق كله يتبع اللغة المختارة في الإعدادات (العربية، الإنجليزية، الفرنسية، الإسبانية، الإيطالية)، بما في ذلك مباريات اليوم وكل النوافذ والرسائل.
-- **التحديث من GitHub** — الإعدادات ← **التحقق من التحديثات** يقارن التطبيق بآخر إصدار، ويعرض الجديد، وينزّل ملف APK من الرابط الدائم ويفتح أداة التثبيت. ويتحقق التطبيق تلقائيا كل 3 ساعات، والتحديث الإلزامي لا يمكن تأجيله.
-- **نصائح أول استعمال** — نافذة قصيرة (بالعربية والإنجليزية) تظهر مرة واحدة في البث المباشر (كيفية ترتيب المجموعات) ومرة في مباريات اليوم (كيفية فتح قنوات المباراة وتشغيلها).
+- **التحديث من GitHub** — في كل تشغيل يقارن التطبيق نفسه بآخر إصدار. **كل تحديث إلزامي**: يجب تثبيت الإصدار الجديد قبل استعمال التطبيق (ينزّل ملف APK من الرابط الدائم ويفتح أداة التثبيت مع الاحتفاظ بالقوائم والإعدادات). الإعدادات ← **التحقق من التحديثات** للتحقق فورا.
+- **نصيحة أول استعمال** — نافذة قصيرة (بالعربية والإنجليزية) تظهر مرة واحدة في البث المباشر (كيفية ترتيب المجموعات).
 - **البث المباشر** — المجموعات والقنوات ومعاينة مباشرة بزوايا دائرية وإطار تركيز دائري؛ زر OK للشاشة الكاملة.
 - **قائمة القنوات في الشاشة الكاملة** — زر الأسفل يعرض قنوات المجموعة فوق الفيديو، ويمين / يسار للتنقل بين المجموعات، وOK للتشغيل.
 - **ترتيب المجموعات** — اضغط مطولا على OK فوق مجموعة في المباشر أو الأفلام أو المسلسلات، وحرّكها بـ ▲ ▼ (القائمة تتبعها حتى خارج الشاشة)، وOK يحفظ فورا وBACK يلغي. على الهاتف: اضغط مطولا ثم اسحب المجموعة. الضغط المطوّل على صف ثابت يعيد ترتيب المزوّد الأصلي.
