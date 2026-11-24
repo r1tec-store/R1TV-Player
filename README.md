@@ -34,7 +34,7 @@ Version number, changes and SHA-256 checksum: see the [latest release](https://g
 
 | Today's Matches / مباريات اليوم | Match channels / قنوات المباراة |
 |---|---|
-| ![Today's matches from Fixtures OnSAT](screenshots/todays-matches.png) | ![Channels of a match from your playlist](screenshots/match-channels.png) |
+| ![Today's matches](screenshots/todays-matches.png) | ![Channels of a match from your playlist](screenshots/match-channels.png) |
 
 | Group order / ترتيب المجموعات | EPG sources / مصادر دليل البرامج |
 |---|---|
@@ -56,7 +56,7 @@ The full list is in [FEATURES.md](FEATURES.md). / القائمة الكاملة 
 
 - **Playlists** — add an **M3U URL** or **Xtream Codes** login, name it, manage several playlists, see connection status, reload.
 - **Auto-update** — the playlist refreshes every 6, 12 (default), 24 or 48 hours; the EPG is refreshed with it.
-- **Today's Matches** — today's football matches from **Fixtures OnSAT** (our own match service), in the same order as the website: live minute and score, kick-off times, rounds, team and competition logos, the main broadcaster and the commentator. Every TV channel of a match is searched in **your own playlist** by **name and country** (the channel prefix or its group: `|AR|`, `ARAB| EGYPT`, `AF| AZAM`, `ASIA| IRAN`, `EU| ROMANIA` …; HD/FHD/4K ignored). Only sure channels are shown; OK on a channel plays it fullscreen. Channels that are not in your playlist are listed separately and are never shown as playable.
+- **Today's Matches** — today's football matches from our own match service: live minute and score, kick-off times, rounds, team and competition logos, the main broadcaster and the commentator. Every TV channel of a match is searched in **your own playlist** by **name and country** (the channel prefix or its group: `|AR|`, `ARAB| EGYPT`, `AF| AZAM`, `ASIA| IRAN`, `EU| ROMANIA` …; HD/FHD/4K ignored). Only sure channels are shown; OK on a channel plays it fullscreen. Channels that are not in your playlist are listed separately and are never shown as playable.
 - **Match channels** — grouped by country; STARZPLAY matches open STARZPLAY SPORTS 1 and 2; Egyptian League matches find ON Sport (ONTIME SPORTS); beIN SPORTS English stays separate from the Arabic beIN. Matches are shown live first, then upcoming, then finished; channels of a finished match disappear 15 minutes after the end (the result stays).
 - **Full translation** — the whole app follows the language chosen in Settings (English, Arabic, French, Spanish, Italian), including Today's Matches, all dialogs and messages.
 - **Updates from GitHub** — Settings → **Check for updates** compares the app with the latest release, shows what is new, downloads the APK from the permanent link and opens the Android installer. The app also checks quietly every 3 hours; a required update cannot be postponed.
@@ -71,7 +71,7 @@ The full list is in [FEATURES.md](FEATURES.md). / القائمة الكاملة 
 - **Phones too** — touch layouts, fullscreen player that keeps playing after the notification shade, adaptive launcher icon.
 - **Languages** — Arabic, French, English, Spanish and Italian. VPN controls in Settings.
 
-Match data and broadcaster names come from Fixtures OnSAT. Channels named by the service are never shown as playable: only channels of your own playlist can be played.
+Channels named by the match service are never shown as playable: only channels of your own playlist can be played.
 
 The app is a player. This repository does not provide IPTV subscriptions, channels, movies, series, playlist URLs, or login credentials. Add only playlists and services you are authorized to use.
 
@@ -79,7 +79,7 @@ The app is a player. This repository does not provide IPTV subscriptions, channe
 
 - **القوائم** — إضافة **رابط M3U** أو **بيانات Xtream Codes** مع تسمية القائمة، وإدارة عدة قوائم ومعرفة حالة الاتصال وإعادة التحميل.
 - **التحديث التلقائي** — تحديث القائمة كل 6 أو 12 (افتراضي) أو 24 أو 48 ساعة، مع تحديث دليل البرامج معها.
-- **مباريات اليوم** — مباريات كرة القدم لليوم من **Fixtures OnSAT** (خدمة المباريات الخاصة بنا) بنفس ترتيب الموقع: الدقيقة والنتيجة المباشرة وموعد الانطلاق والجولة وشعارات الفرق والبطولات والقناة الناقلة والمعلق. كل قناة ناقلة يُبحث عنها في **قائمتك أنت** حسب **الاسم والبلد** (بادئة القناة أو مجموعتها: `|AR|` و `ARAB| EGYPT` و `AF| AZAM` و `ASIA| IRAN` و `EU| ROMANIA` …، مع تجاهل HD/FHD/4K). تظهر القنوات المؤكدة فقط، وزر OK على القناة يشغّلها بالشاشة الكاملة. القنوات غير الموجودة في قائمتك تظهر في قسم منفصل ولا تُعرض كقنوات قابلة للتشغيل.
+- **مباريات اليوم** — مباريات كرة القدم لليوم من خدمة المباريات الخاصة بنا: الدقيقة والنتيجة المباشرة وموعد الانطلاق والجولة وشعارات الفرق والبطولات والقناة الناقلة والمعلق. كل قناة ناقلة يُبحث عنها في **قائمتك أنت** حسب **الاسم والبلد** (بادئة القناة أو مجموعتها: `|AR|` و `ARAB| EGYPT` و `AF| AZAM` و `ASIA| IRAN` و `EU| ROMANIA` …، مع تجاهل HD/FHD/4K). تظهر القنوات المؤكدة فقط، وزر OK على القناة يشغّلها بالشاشة الكاملة. القنوات غير الموجودة في قائمتك تظهر في قسم منفصل ولا تُعرض كقنوات قابلة للتشغيل.
 - **قنوات المباراة** — مجمّعة حسب البلد؛ مباريات STARZPLAY تفتح STARZPLAY SPORTS 1 و 2، ومباريات الدوري المصري تجد ON Sport (ONTIME SPORTS)، و beIN SPORTS English منفصلة عن beIN العربية. المباريات تظهر: المباشرة أولا ثم القادمة ثم المنتهية، وقنوات المباراة المنتهية تختفي بعد 15 دقيقة من نهايتها وتبقى النتيجة.
 - **ترجمة كاملة** — التطبيق كله يتبع اللغة المختارة في الإعدادات (العربية، الإنجليزية، الفرنسية، الإسبانية، الإيطالية)، بما في ذلك مباريات اليوم وكل النوافذ والرسائل.
 - **التحديث من GitHub** — الإعدادات ← **التحقق من التحديثات** يقارن التطبيق بآخر إصدار، ويعرض الجديد، وينزّل ملف APK من الرابط الدائم ويفتح أداة التثبيت. ويتحقق التطبيق تلقائيا كل 3 ساعات، والتحديث الإلزامي لا يمكن تأجيله.
